@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#shop">Shop</a>
+    </nav>
+    <br><br><br>
+    <div class="headerSection">
+        <div class="headerText">
+            <div class="headerTitle">
+                Explore The Future of Sneakers: <br>A Unique Collaboration of Adidas & Leading Brands
+            </div>
+            <div class="headerDesc">
+                An exclusive collection of Adidas collaborations with leading brands. 
+                Shoes that are not only stylish, but also designed for performance, 
+                comfort, and a modern lifestyle. From sports shoes to kids' shoes, 
+                find the perfect pair to suit your activities and lifestyle.
+            </div>
+        </div>
+        <div>
+            <img src="https://i0.wp.com/justfreshkicks.com/wp-content/uploads/2022/10/adidas-collab-archive-sale-scaled.jpg?resize=640%2C436&ssl=1" alt="Adidas Collaboration Shoes"  class="headerPict">
+        </div>
+    </div>
+
+    <br><br><br>
+
+    <div class="collabSection">
+        <div class="collabTitle">Collaboration and Product Highlights</div>
+        <div class="collabSubtitle">An Exclusive Collaboration that Combine Style and Functionality</div>
+        <div class="collabDesc">
+            Adidas continues to strengthen its position in the lifestyle world with collaborations with iconic many brands. 
+            The combination of innovative design and the best technology makes each of our products reflect personality, 
+            comfort and high performance.
+        </div>
+        <div class="productCategory">
+            <div class="category">
+                <h3 class="categoryTitle">Original Shoes</h3>
+                <p class="categoryDesc">For those who love classic touches and top quality. 
+                    Original Adidas shoes are a choice that can never go wrong.</p>
+            </div>
+            <div class="category">
+                <h3 class="categoryTitle">Sport Shoes</h3>
+                <p class="categoryDesc">Specifically designed to support sports performance, 
+                    these collaborative sports shoes offer maximum comfort and support.</p>
+            </div>
+            <div class="category">
+                <h3 class="categoryTitle">Running Shoes</h3>
+                <p class="categoryDesc">Lightweight, durable and stylish. 
+                    Adidas running shoes give you a boost with every step you take.</p>
+            </div>
+            <div class="category">
+                <h3 class="categoryTitle">Kids Shoes</h3>
+                <p class="categoryDesc">A combination of cool style and extra comfort for active kids. 
+                    A great choice for modern parents.</p>
+            </div>
+        </div>
+        <div class="productPict">
+            <div class="productWrapper">
+                <div class="arrow leftArrow" onclick="prevSlide(0)">&#10094;</div>
+                <img src="/assets/Original1(HumanMade).png" alt="Original Shoes" class="productPicts" id="category0">
+                <div class="arrow rightArrow" onclick="nextSlide(0)">&#10095;</div>
+                <div class="indicators" id="indicators0">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+            </div>
+        
+            <div class="productWrapper">
+                <div class="arrow leftArrow" onclick="prevSlide(1)">&#10094;</div>
+                <img src="/assets/Sport1(TraeYoung).png" alt="Sport Shoes" class="productPicts" id="category1">
+                <div class="arrow rightArrow" onclick="nextSlide(1)">&#10095;</div>
+                <div class="indicators" id="indicators1">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+            </div>
+        
+            <div class="productWrapper">
+                <div class="arrow leftArrow" onclick="prevSlide(2)">&#10094;</div>
+                <img src="/assets/Running1(Nasa).png" alt="Running Shoes" class="productPicts" id="category2">
+                <div class="arrow rightArrow" onclick="nextSlide(2)">&#10095;</div>
+                <div class="indicators" id="indicators2">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+            </div>
+        
+            <div class="productWrapper">
+                <div class="arrow leftArrow" onclick="prevSlide(3)">&#10094;</div>
+                <img src="/assets/Kids1(Disney).png" alt="Kids Shoes" class="productPicts" id="category3">
+                <div class="arrow rightArrow" onclick="nextSlide(3)">&#10095;</div>
+                <div class="indicators" id="indicators3">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+            </div>
+        </div>
+        
+        
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
