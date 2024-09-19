@@ -46,5 +46,4 @@ function initIndicators() {
     }
 }
 
-document.addEventListener('Loaded', initIndicators);
-
+window.onload = initIndicators;
