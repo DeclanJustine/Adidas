@@ -13,7 +13,8 @@
         <a href="#about">About Us</a>
         <a href="#shop">Shop</a>
     </nav>
-    <br><br><br>
+    <div id="home"></div>
+    <br>
     <div class="headerSection">
         <div class="headerText">
             <div class="headerTitle">
@@ -112,10 +113,65 @@
                 </div>
             </div>
         </div>
+    </div>
+    
+    <br><br>
+    
+    <div class="lifestyleSection">
+        <div class="lifestyleContent">
+            <div class="lifestyleVideo">
+                <video>
+                    <source src="your-video-source.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="lifestyleText">
+                <h2>Discover Your Lifestyle with Adidas</h2>
+                <p>
+                    Beyond just shoes, every Adidas collection is part of a lifestyle. Whether you're a professional athlete, sports enthusiast, or just a fashion lover, our Adidas collaborations are designed to accompany your active days with the best look.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="commentSection">
+        <div class="commentTitle">What did they say?</div>
+        <div class="commentDesc">
+            From athletes to influencers, many choose Adidas as part of their lifestyle journey. Check out what they have to say about our products.
+        </div>
         
+        <div class="commentBox">
+            <div class="arrow leftArrow" onclick="prevSlides()">&#10094;</div>
+            <div class="commentContent">
+                <img src="/assets/influencer/PharrellWilliams.png" alt="Testimoni 1" class="commentPicts" id="categoryImage">
+                <div class="commentTextBox">
+                    <h3 class="commentTextTitle" id="commentTextTitle">Pharrell Williams</h3>
+                    <p class="commentText" id="commentText">
+                        Pharrell Williams has consistently spoken positively about his collaboration with Adidas, particularly through his Humanrace™ line. His partnership with Adidas has resulted in iconic sneakers like the Hu NMD and, more recently, the Humanrace Sichona and Samba collections. Pharrell often praises Adidas for its willingness to innovate while honoring the heritage of classic designs, such as the Samba. The premium materials and thoughtful design details of these collections highlight both brands' commitment to blending style, comfort, and cultural relevance. <br>- Adidas Hu NMD S1 RYAT
+                    </p>
+                </div>
+            </div>
+            <div class="arrow rightArrow" onclick="nextSlides()">&#10095;</div>
+        </div>
+           
         
     </div>
     
+
+    <div class="exploreSection">
+        <div class="exploreText">
+            <h2>Ready to Discover Your Dream Shoes?</h2>
+            <p>
+                With innovations that combine style and comfort, every step is a confident journey. Discover shoes designed to accompany your every moment, from daily routines to extraordinary activities.
+            </p>
+        </div>
+        <br>
+        <div class="exploreButton">
+            <a href="#shop" class="button">Explore The Collection</a>
+        </div>
+    </div>
+    
+    
     <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </body>
 </html>
