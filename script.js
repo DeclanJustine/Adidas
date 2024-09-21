@@ -8,24 +8,24 @@ const images = [
 let currentIndex = [0, 0, 0, 0];
 
 function changeSlide(categoryIndex, direction) {
-    const $imgElement = $(`#category${categoryIndex}`);
-    const $indicators = $(`#indicator${categoryIndex} .line`);
+    const $imageElement = $(`#category${categoryIndex}`);
+    const $indicator = $(`#indicator${categoryIndex} .line`);
 
-    $imgElement.addClass('fade-out');
+    $imageElement.addClass('fade-out');
 
     setTimeout(() => {
         currentIndex[categoryIndex] = (currentIndex[categoryIndex] + direction + images[categoryIndex].length) % images[categoryIndex].length;
-        $imgElement.attr('src', images[categoryIndex][currentIndex[categoryIndex]]);
+        $imageElement.attr('src', images[categoryIndex][currentIndex[categoryIndex]]);
 
-        $imgElement.removeClass('fade-out').addClass('fade-in');
+        $imageElement.removeClass('fade-out').addClass('fade-in');
 
-        $indicators.each(function (index) {
+        $indicator.each(function (index) {
             $(this).toggleClass('active', index === currentIndex[categoryIndex]);
         });
     }, 500);
 
     setTimeout(() => {
-        $imgElement.removeClass('fade-in');
+        $imageElement.removeClass('fade-in');
     }, 1000);
 }
 
@@ -39,8 +39,8 @@ function nextSlide(categoryIndex) {
 
 function initIndicator() {
     for (let i = 0; i < 4; i++) {
-        const $indicators = $(`#indicator${i} .line`);
-        $indicators.eq(0).addClass('active');
+        const $indicator = $(`#indicator${i} .line`);
+        $indicator.eq(0).addClass('active');
     }
 }
 
