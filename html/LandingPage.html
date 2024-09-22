@@ -1,193 +1,232 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Main Page</title>
-    <link rel="stylesheet" href="/css/style.css">
-</head>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
 
-<body>
+  <body>
     <nav>
-        <img src="/assets/logo/adidasLogo.png" alt="" class="adidasLogo">
-        <a href="#home">Home</a>
-        <a href="#about">About Us</a>
-        <a href="/html/ShopPage.html">Shop</a>
+      <img src="/assets/logo/adidasLogo.png" alt="" class="adidasLogo" />
+      <a href="#home">Home</a>
+      <a href="#about">About Us</a>
+      <a href="/html/ShopPage.html">Shop</a>
     </nav>
     <div id="home"></div>
-    <br>
+    <br />
     <div class="headerSection">
-        <div class="headerText">
-            <div class="headerTitle">
-                Explore The Future of Sneakers: <br>A Unique Collaboration of Adidas & Leading Brands
-            </div>
-            <div class="headerDesc">
-                An exclusive collection of Adidas collaborations with leading brands.
-                Shoes that are not only stylish, but also designed for performance,
-                comfort, and a modern lifestyle. From sports shoes to kids' shoes,
-                find the perfect pair to suit your activities and lifestyle.
-            </div>
+      <div class="headerText">
+        <div class="headerTitle">
+          Explore The Future of Sneakers: <br />A Unique Collaboration of Adidas
+          & Leading Brands
         </div>
-        <div>
-            <img src="https://i0.wp.com/justfreshkicks.com/wp-content/uploads/2022/10/adidas-collab-archive-sale-scaled.jpg?resize=640%2C436&ssl=1"
-                alt="Adidas Collaboration Shoes" class="headerPict">
+        <div class="headerDesc">
+          An exclusive collection of Adidas collaborations with leading brands.
+          Shoes that are not only stylish, but also designed for performance,
+          comfort, and a modern lifestyle. From sports shoes to kids' shoes,
+          find the perfect pair to suit your activities and lifestyle.
         </div>
+      </div>
+      <div>
+        <img
+          src="https://i0.wp.com/justfreshkicks.com/wp-content/uploads/2022/10/adidas-collab-archive-sale-scaled.jpg?resize=640%2C436&ssl=1"
+          alt="Adidas Collaboration Shoes"
+          class="headerPict"
+        />
+      </div>
     </div>
 
-    <br><br><br>
+    <br /><br /><br />
 
     <div class="collabSection">
-        <div class="collabTitle">Collaboration and Product Highlights</div>
-        <div class="collabSubtitle">An Exclusive Collaboration that Combine Style and Functionality</div>
-        <div class="collabDesc">
-            Adidas continues to strengthen its position in the lifestyle world with collaborations with iconic many
-            brands.
-            The combination of innovative design and the best technology makes each of our products reflect personality,
-            comfort and high performance.
+      <div class="collabTitle">Collaboration and Product Highlights</div>
+      <div class="collabSubtitle">
+        An Exclusive Collaboration that Combine Style and Functionality
+      </div>
+      <div class="collabDesc">
+        Adidas continues to strengthen its position in the lifestyle world with
+        collaborations with iconic many brands. The combination of innovative
+        design and the best technology makes each of our products reflect
+        personality, comfort and high performance.
+      </div>
+      <div class="productCategory">
+        <div class="category">
+          <h3 class="categoryTitle">Original Shoes</h3>
+          <p class="categoryDesc">
+            For those who love classic touches and top quality. Original Adidas
+            shoes are a choice that can never go wrong.
+          </p>
         </div>
-        <div class="productCategory">
-            <div class="category">
-                <h3 class="categoryTitle">Original Shoes</h3>
-                <p class="categoryDesc">For those who love classic touches and top quality.
-                    Original Adidas shoes are a choice that can never go wrong.</p>
-            </div>
-            <div class="category">
-                <h3 class="categoryTitle">Sport Shoes</h3>
-                <p class="categoryDesc">Specifically designed to support sports performance,
-                    these collaborative sports shoes offer maximum comfort and support.</p>
-            </div>
-            <div class="category">
-                <h3 class="categoryTitle">Running Shoes</h3>
-                <p class="categoryDesc">Lightweight, durable and stylish.
-                    Adidas running shoes give you a boost with every step you take.</p>
-            </div>
-            <div class="category">
-                <h3 class="categoryTitle">Kids Shoes</h3>
-                <p class="categoryDesc">A combination of cool style and extra comfort for active kids.
-                    A great choice for modern parents.</p>
-            </div>
+        <div class="category">
+          <h3 class="categoryTitle">Sport Shoes</h3>
+          <p class="categoryDesc">
+            Specifically designed to support sports performance, these
+            collaborative sports shoes offer maximum comfort and support.
+          </p>
         </div>
-        <div class="productPict">
-            <div class="productWrapper">
-                <div class="arrow leftArrow" onclick="prevSlide(0)">&#10094;</div>
-                <img src="/assets/Original1(HumanMade).png" alt="Original Shoes" class="productPicts" id="category0">
-                <div class="arrow rightArrow" onclick="nextSlide(0)">&#10095;</div>
-                <div class="indicator" id="indicator0">
-                    <span class="line"></span>
-                    <span class="line"></span>
-                    <span class="line"></span>
-                    <span class="line"></span>
-                </div>
-            </div>
-
-            <div class="productWrapper">
-                <div class="arrow leftArrow" onclick="prevSlide(1)">&#10094;</div>
-                <img src="/assets/Sport1(TraeYoung).png" alt="Sport Shoes" class="productPicts" id="category1">
-                <div class="arrow rightArrow" onclick="nextSlide(1)">&#10095;</div>
-                <div class="indicator" id="indicator1">
-                    <span class="line"></span>
-                    <span class="line"></span>
-                    <span class="line"></span>
-                    <span class="line"></span>
-                </div>
-            </div>
-
-            <div class="productWrapper">
-                <div class="arrow leftArrow" onclick="prevSlide(2)">&#10094;</div>
-                <img src="/assets/Running1(Nasa).png" alt="Running Shoes" class="productPicts" id="category2">
-                <div class="arrow rightArrow" onclick="nextSlide(2)">&#10095;</div>
-                <div class="indicator" id="indicator2">
-                    <span class="line"></span>
-                    <span class="line"></span>
-                    <span class="line"></span>
-                    <span class="line"></span>
-                </div>
-            </div>
-
-            <div class="productWrapper">
-                <div class="arrow leftArrow" onclick="prevSlide(3)">&#10094;</div>
-                <img src="/assets/Kids1(Disney).png" alt="Kids Shoes" class="productPicts" id="category3">
-                <div class="arrow rightArrow" onclick="nextSlide(3)">&#10095;</div>
-                <div class="indicator" id="indicator3">
-                    <span class="line"></span>
-                    <span class="line"></span>
-                    <span class="line"></span>
-                    <span class="line"></span>
-                </div>
-            </div>
+        <div class="category">
+          <h3 class="categoryTitle">Running Shoes</h3>
+          <p class="categoryDesc">
+            Lightweight, durable and stylish. Adidas running shoes give you a
+            boost with every step you take.
+          </p>
         </div>
+        <div class="category">
+          <h3 class="categoryTitle">Kids Shoes</h3>
+          <p class="categoryDesc">
+            A combination of cool style and extra comfort for active kids. A
+            great choice for modern parents.
+          </p>
+        </div>
+      </div>
+      <div class="productPict">
+        <div class="productWrapper">
+          <div class="arrow leftArrow" onclick="prevSlide(0)">&#10094;</div>
+          <img
+            src="/assets/Original1(HumanMade).png"
+            alt="Original Shoes"
+            class="productPicts"
+            id="category0"
+          />
+          <div class="arrow rightArrow" onclick="nextSlide(0)">&#10095;</div>
+          <div class="indicator" id="indicator0">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+          </div>
+        </div>
+
+        <div class="productWrapper">
+          <div class="arrow leftArrow" onclick="prevSlide(1)">&#10094;</div>
+          <img
+            src="/assets/Sport1(TraeYoung).png"
+            alt="Sport Shoes"
+            class="productPicts"
+            id="category1"
+          />
+          <div class="arrow rightArrow" onclick="nextSlide(1)">&#10095;</div>
+          <div class="indicator" id="indicator1">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+          </div>
+        </div>
+
+        <div class="productWrapper">
+          <div class="arrow leftArrow" onclick="prevSlide(2)">&#10094;</div>
+          <img
+            src="/assets/Running1(Nasa).png"
+            alt="Running Shoes"
+            class="productPicts"
+            id="category2"
+          />
+          <div class="arrow rightArrow" onclick="nextSlide(2)">&#10095;</div>
+          <div class="indicator" id="indicator2">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+          </div>
+        </div>
+
+        <div class="productWrapper">
+          <div class="arrow leftArrow" onclick="prevSlide(3)">&#10094;</div>
+          <img
+            src="/assets/Kids1(Disney).png"
+            alt="Kids Shoes"
+            class="productPicts"
+            id="category3"
+          />
+          <div class="arrow rightArrow" onclick="nextSlide(3)">&#10095;</div>
+          <div class="indicator" id="indicator3">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <br><br>
+    <br /><br />
 
     <div class="lifestyleSection">
-        <div class="lifestyleContent">
-            <div class="lifestyleVideo">
-                <video autoplay loop preload="auto" muted>
-                    <source src="/assets/video/adidas.mp4" type="video/mp4">
-                </video>
-            </div>
-            <div class="lifestyleText">
-                <h2>Discover Your Lifestyle with Adidas</h2>
-                <p>
-                    Beyond just shoes, every Adidas collection is part of a lifestyle. Whether you're a professional
-                    athlete, sports enthusiast, or just a fashion lover, our Adidas collaborations are designed to
-                    accompany your active days with the best look.
-                </p>
-            </div>
-        </div>  
+      <div class="lifestyleContent">
+        <div class="lifestyleVideo">
+          <video autoplay loop preload="auto" muted>
+            <source src="/assets/video/adidas.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div class="lifestyleText">
+          <h2>Discover Your Lifestyle with Adidas</h2>
+          <p>
+            Beyond just shoes, every Adidas collection is part of a lifestyle.
+            Whether you're a professional athlete, sports enthusiast, or just a
+            fashion lover, our Adidas collaborations are designed to accompany
+            your active days with the best look.
+          </p>
+        </div>
+      </div>
     </div>
 
     <div class="commentSection">
-        <div class="commentTitle">What did they say?</div>
-        <div class="commentDesc">
-            From athletes to influencers, many choose Adidas as part of their lifestyle journey. Check out what they
-            have to say about our products.
+      <div class="commentTitle">What did they say?</div>
+      <div class="commentDesc">
+        From athletes to influencers, many choose Adidas as part of their
+        lifestyle journey. Check out what they have to say about our products.
+      </div>
+
+      <div class="commentBox">
+        <div class="arrow leftArrow" onclick="prevSlides()">&#10094;</div>
+        <div class="commentContent">
+          <img
+            src="/assets/influencer/PharrellWilliams.png"
+            alt="Testimoni 1"
+            class="commentPicts"
+            id="categoryImage"
+          />
+          <div class="commentTextBox">
+            <h3 class="commentTextTitle" id="commentTextTitle">
+              Pharrell Williams
+            </h3>
+            <p class="commentText" id="commentText">
+              Pharrell Williams has consistently spoken positively about his
+              collaboration with Adidas, particularly through his Humanrace™
+              line. His partnership with Adidas has resulted in iconic sneakers
+              like the Hu NMD and, more recently, the Humanrace Sichona and
+              Samba collections. Pharrell often praises Adidas for its
+              willingness to innovate while honoring the heritage of classic
+              designs, such as the Samba. The premium materials and thoughtful
+              design details of these collections highlight both brands'
+              commitment to blending style, comfort, and cultural relevance.
+              <br />- Adidas Hu NMD S1 RYAT
+            </p>
+          </div>
         </div>
-
-        <div class="commentBox">
-            <div class="arrow leftArrow" onclick="prevSlides()">&#10094;</div>
-            <div class="commentContent">
-                <img src="/assets/influencer/PharrellWilliams.png" alt="Testimoni 1" class="commentPicts"
-                    id="categoryImage">
-                <div class="commentTextBox">
-                    <h3 class="commentTextTitle" id="commentTextTitle">Pharrell Williams</h3>
-                    <p class="commentText" id="commentText">
-                        Pharrell Williams has consistently spoken positively about his collaboration with Adidas,
-                        particularly through his Humanrace™ line. His partnership with Adidas has resulted in iconic
-                        sneakers like the Hu NMD and, more recently, the Humanrace Sichona and Samba collections.
-                        Pharrell often praises Adidas for its willingness to innovate while honoring the heritage of
-                        classic designs, such as the Samba. The premium materials and thoughtful design details of these
-                        collections highlight both brands' commitment to blending style, comfort, and cultural
-                        relevance. <br>- Adidas Hu NMD S1 RYAT
-                    </p>
-                </div>
-            </div>
-            <div class="arrow rightArrow" onclick="nextSlides()">&#10095;</div>
-        </div>
-
-
+        <div class="arrow rightArrow" onclick="nextSlides()">&#10095;</div>
+      </div>
     </div>
-
 
     <div class="exploreSection">
-        <div class="exploreText">
-            <h2>Ready to Discover Your Dream Shoes?</h2>
-            <p>
-                With innovations that combine style and comfort, every step is a confident journey. Discover shoes
-                designed to accompany your every moment, from daily routines to extraordinary activities.
-            </p>
-        </div>
-        <br>
-        <div class="exploreButton">
-            <a href="/html/ShopPage.html" class="button">Explore The Collection</a>
-        </div>
+      <div class="exploreText">
+        <h2>Ready to Discover Your Dream Shoes?</h2>
+        <p>
+          With innovations that combine style and comfort, every step is a
+          confident journey. Discover shoes designed to accompany your every
+          moment, from daily routines to extraordinary activities.
+        </p>
+      </div>
+      <br />
+      <div class="exploreButton">
+        <a href="/html/ShopPage.html" class="button">Explore The Collection</a>
+      </div>
     </div>
 
-
-    <script src="../script.js"></script>
+    <script src="/js/script.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-</body>
-
+  </body>
 </html>
