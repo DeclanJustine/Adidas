@@ -96,4 +96,9 @@ function prevSlides() {
     updateSlide();
 }
 
-updateSlide();
+setInterval(() => {
+    currentSlide = (currentSlide + 1) % slides.length;
+    updateSlide(currentSlide)
+},5000);
+
+updateSlide(currentIndex);
