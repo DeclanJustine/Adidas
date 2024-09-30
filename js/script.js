@@ -1,3 +1,11 @@
+let menuIcon = document.querySelector("#menu-icon");
+let navbar = document.querySelector(".navbar");
+
+menuIcon.onclick = () => {
+    menuIcon.classList.toggle("fa-times"); 
+    navbar.classList.toggle("active"); 
+}
+
 const images = [
     ["/assets/Original1(HumanMade).png", "/assets/Original2(Gucci).png", "/assets/Original3(Beyonce).png", "/assets/Original4(BadBunny).png"],
     ["/assets/Sport1(TraeYoung).png", "/assets/Sport2(DamianLillard).png", "/assets/Sport3(Messi).png", "/assets/Sport4(Yeezy).png"],

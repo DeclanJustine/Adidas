@@ -6,15 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main Page</title>
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 
 <body>
-    <nav>
-        <img src="/assets/logo/adidasLogo.png" alt="" class="adidasLogo">
+    <div class="logo-container">
+        <img src="/assets/logo/adidasLogo.png" alt="Adidas Logo" class="adidasLogo">
+    </div>
+    <i class="fas fa-bars" id="menu-icon"></i>
+    <nav class="navbar">
         <a href="#home">Home</a>
         <a href="#about">About Us</a>
         <a href="/html/ShopPage.html">Shop</a>
     </nav>
+
     <div id="home"></div>
     <br>
     <div class="headerSection">
@@ -42,82 +47,89 @@
         <div class="collabSubtitle">An Exclusive Collaboration that Combine Style and Functionality</div>
         <div class="collabDesc">
             Adidas continues to strengthen its position in the lifestyle world with collaborations with iconic many
-            brands.
-            The combination of innovative design and the best technology makes each of our products reflect personality,
+            brands. The combination of innovative design and the best technology makes each of our products reflect
+            personality,
             comfort and high performance.
         </div>
         <div class="productCategory">
-            <div class="category">
-                <h3 class="categoryTitle">Original Shoes</h3>
-                <p class="categoryDesc">For those who love classic touches and top quality.
-                    Original Adidas shoes are a choice that can never go wrong.</p>
-            </div>
-            <div class="category">
-                <h3 class="categoryTitle">Sport Shoes</h3>
-                <p class="categoryDesc">Specifically designed to support sports performance,
-                    these collaborative sports shoes offer maximum comfort and support.</p>
-            </div>
-            <div class="category">
-                <h3 class="categoryTitle">Running Shoes</h3>
-                <p class="categoryDesc">Lightweight, durable and stylish.
-                    Adidas running shoes give you a boost with every step you take.</p>
-            </div>
-            <div class="category">
-                <h3 class="categoryTitle">Kids Shoes</h3>
-                <p class="categoryDesc">A combination of cool style and extra comfort for active kids.
-                    A great choice for modern parents.</p>
-            </div>
-        </div>
-        <div class="productPict">
-            <div class="productWrapper">
-                <div class="arrow leftArrow" onclick="prevSlide(0)">&#10094;</div>
-                <img src="/assets/Original1(HumanMade).png" alt="Original Shoes" class="productPicts" id="category0">
-                <div class="arrow rightArrow" onclick="nextSlide(0)">&#10095;</div>
-                <div class="indicator" id="indicator0">
-                    <span class="line"></span>
-                    <span class="line"></span>
-                    <span class="line"></span>
-                    <span class="line"></span>
+            <div class="categoryWrapper">
+                <div class="category">
+                    <h3 class="categoryTitle">Original Shoes</h3>
+                    <p class="categoryDesc">For those who love classic touches and top quality.
+                        Original Adidas shoes are a choice that can never go wrong.</p>
+                </div>
+                <div class="productWrapper">
+                    <img src="/assets/Original1(HumanMade).png" alt="Original Shoes" class="productPicts"
+                        id="category0">
+                    <div class="arrow leftArrow" onclick="prevSlide(0)">&#10094;</div>
+                    <div class="arrow rightArrow" onclick="nextSlide(0)">&#10095;</div>
+                    <div class="indicator" id="indicator0">
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                    </div>
                 </div>
             </div>
 
-            <div class="productWrapper">
-                <div class="arrow leftArrow" onclick="prevSlide(1)">&#10094;</div>
-                <img src="/assets/Sport1(TraeYoung).png" alt="Sport Shoes" class="productPicts" id="category1">
-                <div class="arrow rightArrow" onclick="nextSlide(1)">&#10095;</div>
-                <div class="indicator" id="indicator1">
-                    <span class="line"></span>
-                    <span class="line"></span>
-                    <span class="line"></span>
-                    <span class="line"></span>
+            <div class="categoryWrapper">
+                <div class="category">
+                    <h3 class="categoryTitle">Sport Shoes</h3>
+                    <p class="categoryDesc">Specifically designed to support sports performance,
+                        these collaborative sports shoes offer maximum comfort and support.</p>
+                </div>
+                <div class="productWrapper">
+                    <img src="/assets/Sport1(TraeYoung).png" alt="Sport Shoes" class="productPicts" id="category1">
+                    <div class="arrow leftArrow" onclick="prevSlide(1)">&#10094;</div>
+                    <div class="arrow rightArrow" onclick="nextSlide(1)">&#10095;</div>
+                    <div class="indicator" id="indicator1">
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                    </div>
                 </div>
             </div>
 
-            <div class="productWrapper">
-                <div class="arrow leftArrow" onclick="prevSlide(2)">&#10094;</div>
-                <img src="/assets/Running1(Nasa).png" alt="Running Shoes" class="productPicts" id="category2">
-                <div class="arrow rightArrow" onclick="nextSlide(2)">&#10095;</div>
-                <div class="indicator" id="indicator2">
-                    <span class="line"></span>
-                    <span class="line"></span>
-                    <span class="line"></span>
-                    <span class="line"></span>
+            <div class="categoryWrapper">
+                <div class="category">
+                    <h3 class="categoryTitle">Running Shoes</h3>
+                    <p class="categoryDesc"> Adidas running shoes are designed for optimal performance, combining lightweight materials with durability to withstand your toughest workouts.</p>
+                </div>
+                <div class="productWrapper">
+                    <img src="/assets/Running1(Nasa).png" alt="Running Shoes" class="productPicts" id="category2">
+                    <div class="arrow leftArrow" onclick="prevSlide(2)">&#10094;</div>
+                    <div class="arrow rightArrow" onclick="nextSlide(2)">&#10095;</div>
+                    <div class="indicator" id="indicator2">
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                    </div>
                 </div>
             </div>
 
-            <div class="productWrapper">
-                <div class="arrow leftArrow" onclick="prevSlide(3)">&#10094;</div>
-                <img src="/assets/Kids1(Disney).png" alt="Kids Shoes" class="productPicts" id="category3">
-                <div class="arrow rightArrow" onclick="nextSlide(3)">&#10095;</div>
-                <div class="indicator" id="indicator3">
-                    <span class="line"></span>
-                    <span class="line"></span>
-                    <span class="line"></span>
-                    <span class="line"></span>
+            <div class="categoryWrapper">
+                <div class="category">
+                    <h3 class="categoryTitle">Kids Shoes</h3>
+                    <p class="categoryDesc">A combination of cool style and extra comfort for active kids. Perfect for every adventure they start on. A great choice for modern parents.</p>
+                </div>
+                <div class="productWrapper">
+                    <img src="/assets/Kids1(Disney).png" alt="Kids Shoes" class="productPicts" id="category3">
+                    <div class="arrow leftArrow" onclick="prevSlide(3)">&#10094;</div>
+                    <div class="arrow rightArrow" onclick="nextSlide(3)">&#10095;</div>
+                    <div class="indicator" id="indicator3">
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
+
 
     <br><br>
 
@@ -136,7 +148,7 @@
                     accompany your active days with the best look.
                 </p>
             </div>
-        </div>  
+        </div>
     </div>
 
     <div class="commentSection">

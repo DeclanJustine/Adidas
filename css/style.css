@@ -15,6 +15,18 @@ body {
     align-items: center;
 }
 
+.logo-container {
+    position: fixed; 
+    top: 7px;
+    left: 20px; 
+    z-index: 2;
+}
+
+.adidasLogo {
+    width: 90px; 
+    height: auto; 
+}
+
 nav {
     display: flex;
     justify-content: center;
@@ -43,11 +55,12 @@ nav a:hover {
     color: #ff4500;
 }
 
-.adidasLogo {
-    position: absolute;
-    left: 20px;
-    width: 90px;
-    height: 60px;
+.navbar {
+    display: flex;
+}
+
+#menu-icon {
+    display: none;
 }
 
 .headerSection {
@@ -116,7 +129,7 @@ nav a:hover {
     margin-bottom: 30px;
 }
 
-.productCategory, .productPict {
+.productCategory, .productPicts {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 30px;
@@ -347,4 +360,207 @@ nav a:hover {
 
 .exploreButton .button:hover {
     background-color: rgb(157, 156, 156);
+}
+
+
+@media (max-width: 1200px) {
+    .headerSection {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .headerText {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .headerPict {
+        width: 300px;
+        margin-bottom: 20px;
+    }
+
+    .collabSection, .lifestyleSection, .commentSection {
+        padding: 10px;
+    }
+    
+    .productPicts .productWrapper {
+        width: 250px;
+        height: 250px;
+    }
+
+    .lifestyleVideo {
+        margin-right: 20px;
+    }
+
+    .commentBox {
+        flex-direction: column;
+    }
+
+    .commentContent {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .commentPicts {
+        width: 200px;
+    }
+}
+
+
+@media (max-width: 991px) {
+    nav a {
+        font-size: 1.5rem;
+        margin-left: 40px;
+    }
+
+    .headerSection {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .headerText {
+        margin-right: 0;
+    }
+
+    .headerPict {
+        width: 250px;
+    }
+
+    .collabSection, .lifestyleSection, .commentSection {
+        padding: 10px;
+    }
+
+    .productCategory, .productPicts {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .productWrapper {
+        width: 200px;
+        height: 200px;
+    }
+
+    .lifestyleContent {
+        flex-direction: column;
+    }
+
+    .lifestyleVideo {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .commentBox {
+        flex-direction: column;
+    }
+
+    .commentContent {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .commentPicts {
+        width: 150px;
+    }
+
+    .exploreText h2 {
+        font-size: 32px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .navbar {
+        display: none;
+        flex-direction: column;
+        position: fixed;
+        top: 30px;
+        right: 0;
+        background-color: rgb(161, 160, 160);
+        width: 25%;
+    }
+    
+    #menu-icon {
+        display: block; 
+        cursor: pointer;
+        position: fixed;
+        font-size: 1.1rem;
+        margin-top: 10px;
+        margin-right: -350px;
+        border-bottom: 1px black;
+    }
+
+    .navbar.active {
+        display: block;
+    }
+
+    .navbar a {
+        display: block;
+        font-size: 1rem;
+        margin: 1rem 0;
+        padding-left: 10px;
+        border-bottom: 1px solid #000000; 
+    }
+
+    .adidasLogo {
+        display: fixed;
+        width: 70px;
+        height: auto;
+        left: 10px;
+    }
+
+    .headerSection {
+        padding: 15px;
+        margin-top: 5px;
+    }
+
+    .headerTitle {
+        font-size: 24px;
+    }
+
+    .headerDesc {
+        font-size: 16px;
+    }
+
+    .headerPict {
+        width: 200px;
+    }
+
+    .productCategory, .productPicts {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .productWrapper {
+        width: 150px;
+        height: 150px;
+        margin-bottom: 20px;    
+    }
+
+    .lifestyleContent {
+        flex-direction: column;
+    }
+
+    .commentBox {
+        flex-direction: column;
+    }
+
+    .commentContent {
+        text-align: center;
+    }
+
+    .commentPicts {
+        width: 120px;
+    }
+
+    .exploreText h2 {
+        font-size: 28px;
+    }
+
+    .exploreButton .button {
+        padding: 10px 20px; 
+        font-size: 14px; 
+        border-radius: 30px;
+    }
 }
