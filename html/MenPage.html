@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adidas Indonesia</title>
+  <link rel="stylesheet" href="/css/menstyle.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+
+  <div class="headerSection">
+    <div class="logo-container">
+      <img src="/assets/logo/adidasLogo.png" alt="Adidas Logo" class="adidasLogo">
+    </div>
+    <div class="searchCart">
+      <input type="text" id="searchInput" placeholder="Cari produk...">
+      <i class="fas fa-search searchIcon"></i>
+    </div>
+    <i class="fas fa-bars" id="menu-icon"></i>
+    <nav class="navbar">
+      <a href="/html/LandingPage.html">Home</a>
+      <a href="/html/MenPage.html">Men</a>
+      <a href="/html/WomenPage.html">Women</a>
+      <a href="/html/KidsPage.html">Kids</a>
+      <a href="/html/ShopPage.html">Return to Shop Page</a>
+    </nav>
+  </div>
+
+  
+  <!-- Products -->
+  <section class="products">
+    <div class="breadcrumb">
+      <span class="backArrow"><img src="/assets/logo/arrow_back.png" /></span>
+      <!-- Panah kiri -->
+      <a href="ShopPage.html" class="breadcrumbLink">RETURN</a>
+      <span class="breadcrumbDivider"></span>
+      <span class="breadcrumbCurrent">MEN</span>
+    </div>
+    <h1 id="MEN">MEN</h1>
+    <div class="container">
+      <div class="categoryTitle">
+      </div>
+
+      <!-- Panah Kanan -->
+      <div class="arrow arrowRight" onclick="moveSlide('section1', 1)">&#10095;</div>
+  </section>
+  <section class="products">
+    <h1 id="originals">ORIGINALS</h1>
+    <div class="container">
+    </div>
+    </div>
+
+    <section class="products" id="section2">
+      <div class="arrow arrowLeft" onclick="moveSlide('section2', -1)">
+        &#10094;
+      </div>
+      <!-- Container Produk -->
+      <div class="productContainer">
+        <div class="productItem">
+          <img src="/assets/menshoes/MAN(ORIGINAL 1) - Stan Smith.png" alt="Product 1" />
+          <p class="productSubtitle">Originals MEN</p>
+          <p class="productTitle">ADIDAS X STAN SMITH</p>
+          <p class="productPrice">Rp. 1.530.000</p>
+        </div>
+        <div class="productItem">
+          <img src="/assets/menshoes/MAN(ORIGINAL 2) - Pharrell Williams (Superstar).png" alt="Product 2" />
+          <p class="productSubtitle">Originals MEN</p>
+          <p class="productTitle">ADIDAS X PHARRELL WILLIAMS </p>
+          <p class="productPrice">Rp. 1.370.000</p>
+        </div>
+        <div class="productItem">
+          <img src="/assets/menshoes/MAN(ORIGINAL 3) - Kanye West(PowerPhase).png" alt="Product 3" />
+          <p class="productSubtitle">Originals MEN</p>
+          <p class="productTitle">ADIDAS YEEZY X KANYE WEST POWERPHASE</p>
+          <p class="productPrice">Rp. 1.600.000</p>
+        </div>
+        <div class="productItem">
+          <img src="/assets/menshoes/MAN(ORIGINAL 4) - Sean Wotherspoon.png" alt="Product 4" />
+          <p class="productSubtitle">Originals MEN</p>
+          <p class="productTitle">ADIDAS X SEAN WOTHERSPOON</p>
+          <p class="productPrice">Rp. 2.499.000</p>
+        </div>
+        <div class="productItem">
+          <img src="/assets/menshoes/MAN(ORIGINAL 5) - Palace Skateboards.png" alt="Product 5" />
+          <p class="productSubtitle">Originals MEN</p>
+          <p class="productTitle">ADIDAS SUPERSTARS X PALACE SKATEBOARDS </p>
+          <p class="productPrice">Rp. 1.800.000</p>
+        </div>
+        <div class="productItem">
+          <img src="/assets/menshoes/MAN(ORIGINAL 6) - Alexander Wang.png" alt="Product 6" />
+          <p class="productSubtitle">Originals MEN</p>
+          <p class="productTitle">ADIDAS X ALEXANDER WANG SKATE SUPER</p>
+          <p class="productPrice">Rp. 10.172.000</p>
+        </div>
+        <div class="productItem">
+          <img src="/assets/menshoes/MAN(ORIGINAL 7) - Bappe.png" alt="Product 7" />
+          <p class="productSubtitle">Originals MEN</p>
+          <p class="productTitle">ADIDAS SUPERSTARS X A BATHING APE </p>
+          <p class="productPrice">Rp. 4.299.000</p>
+        </div>
+        <div class="productItem">
+          <img src="/assets/menshoes/MAN(ORIGINAL 8) - Neighboorhood.png" alt="Product 8" />
+          <p class="productSubtitle">Originals MEN</p>
+          <p class="productTitle">ADIDAS X GAZELLE NEIGHBORHOOD</p>
+          <p class="productPrice">Rp. 2.100.000</p>
+        </div>
+
+
+      </div>
+
+      <!-- Panah Kanan -->
+      <div class="arrow arrowRight" onclick="moveSlide('section2', 1)">
+        &#10095;
+      </div>
+    </section>
+  </section>
+  <section class="products">
+    <h1 id="sports"> SPORTS </h1>
+    <div class="container">
+    </div>
+    </div>
+
+    <section class="products" id="section3">
+      <!-- Panah Kiri -->
+      <div class="arrow arrowLeft" onclick="moveSlide('section3', -1)">
+        &#10094;
+      </div>
+
+      <!-- Container Produk -->
+      <div class="productContainer">
+        <div class="productItem">
+          <img src="/assets/menshoes/MAN(SPORT 1) - COUNTRY HUMAN MADE.png" alt="Product 1" />
+          <p class="productSubtitle">Sports MEN</p>
+          <p class="productTitle">ADIDAS X HUMAN MADE COUNTRY</p>
+          <p class="productPrice">Rp. 1.949.000</p>
+        </div>
+        <div class="productItem">
+          <img src="/assets/menshoes/MAN(SPORT 2) - Prada.png" alt="Product 2" />
+          <p class="productSubtitle">Sports MEN</p>
+          <p class="productTitle">ADIDAS CRAZYFAST X PRADA</p>
+          <p class="productPrice">Rp. 7.580.000</p>
+        </div>
+        <div class="productItem">
+          <img src="/assets/menshoes/MAN(SPORT 3) - Stella McCartney.png" alt="Product 3" />
+          <p class="productSubtitle">Sports MEN</p>
+          <p class="productTitle">ADIDAS X STELLA MCCARTNEY DROPSET</p>
+          <p class="productPrice">Rp. 2.600.000</p>
+        </div>
+        <div class="productItem">
+          <img src="/assets/menshoes/MAN(SPORT 4) - DFB.png" alt="Product 4" />
+          <p class="productSubtitle">Sports MEN</p>
+          <p class="productTitle">ADIDAS X DFB</p>
+          <p class="productPrice">Rp. 1.650.000</p>
+        </div>
+        <div class="productItem">
+          <img src="/assets/menshoes/MAN(SPORT 5) - Manchester United.png" alt="Product 5" />
+          <p class="productSubtitle">Sports MEN</p>
+          <p class="productTitle">ADIDAS SAMBA X MANCHESTER UNITED</p>
+          <p class="productPrice">Rp. 2.499.000</p>
+        </div>
+        <div class="productItem">
+          <img src="/assets/menshoes/MAN(SPORT 6) - Real Madrid.png" alt="Product 6" />
+          <p class="productSubtitle">Sports MEN</p>
+          <p class="productTitle">ADIDAS ULTRABOOST DNA X REAL MADRID </p>
+          <p class="productPrice">Rp. 2.199.000</p>
+        </div>
+        <div class="productItem">
+          <img src="/assets/menshoes/MAN(SPORT 7) - Donovan Mitchell.png" alt="Product 7" />
+          <p class="productSubtitle">Sports MEN</p>
+          <p class="productTitle">ADIDAS CRAYOLA X D.o.n. DONOVAN MITCHELL</p>
+          <p class="productPrice">Rp. 1.497.000</p>
+        </div>
+        <div class="productItem">
+          <img src="/assets/menshoes/MAN(SPORT 8) - Juventus.png" alt="Product 8" />
+          <p class="productSubtitle">Sports MEN</p>
+          <p class="productTitle">ADIDAS ZX X JUVENTUS </p>
+          <p class="productPrice">Rp. 1.050.000</p>
+        </div>
+
+      </div>
+
+      <!-- Panah Kanan -->
+      <div class="arrow arrowRight" onclick="moveSlide('section3', 1)">
+        &#10095;
+      </div>
+    </section>
+  </section>
+  <section class="products">
+    <h1 id="running">RUNNING</h1>
+    <div class="container">
+    </div>
+    </div>
+
+    <section class="products" id="section4">
+      <!-- Panah Kiri -->
+      <div class="arrow arrowLeft" onclick="moveSlide('section4', -1)">
+        &#10094;
+      </div>
+
+      <!-- Container Produk -->
+      <div class="productContainer">
+        <div class="productItem">
+          <img src="/assets/menshoes/MAN(RUNNING 1) - Parley.png" alt="Product 1" />
+          <p class="productSubtitle">Running MEN</p>
+          <p class="productTitle">ADIDAS ULTRABOOST DNA X PARLEY</p>
+          <p class="productPrice">Rp. 2.492.000</p>
+        </div>
+        <div class="productItem">
+          <img src="/assets/menshoes/MAN(RUNNING 2) - Rebook.png" alt="Product 2" />
+          <p class="productSubtitle">Running MEN</p>
+          <p class="productTitle">ADIDAS ZX X REBOOK</p>
+          <p class="productPrice">Rp. 4.426.000</p>
+        </div>
+        <div class="productItem">
+          <img src="/assets/menshoes/MAN(RUNNING 3) - White Mountaineering.png" alt="Product 3" />
+          <p class="productSubtitle">Running MEN</p>
+          <p class="productTitle">ADIDAS NITE JOGGER X WHITE MOUNTAINEERING</p>
+          <p class="productPrice">Rp. 2.470.000</p>
+        </div>
+        <div class="productItem">
+          <img src="/assets/menshoes/MAN(RUNNING 4) - Yohji Yamamoto.png" alt="Product 4" />
+          <p class="productSubtitle">Running MEN</p>
+          <p class="productTitle">ADIDAS X YOHJI YAMAMOTO Y3 </p>
+          <p class="productPrice">Rp. 1.667.000</p>
+        </div>
+        <div class="productItem">
+          <img src="/assets/menshoes/MAN(RUNNING 5) - Kolor.png" alt="Product 5" />
+          <p class="productSubtitle">Running MEN</p>
+          <p class="productTitle">ADIDAS ALPHABOUNCE X KOLOR</p>
+          <p class="productPrice">Rp. 2.100.000</p>
+        </div>
+        <div class="productItem">
+          <img src="/assets/menshoes/MAN(RUNNING 6) - Undefeated.png" alt="Product 6" />
+          <p class="productSubtitle">Running MEN</p>
+          <p class="productTitle">ADIDAS ULTRABOOST X UNDEFEATED</p>
+          <p class="productPrice">Rp. 6.610.000</p>
+        </div>
+        <div class="productItem">
+          <img src="/assets/menshoes/MAN(RUNNING 7) - A Kind of Guise.png" alt="Product 7" />
+          <p class="productSubtitle">Running MEN</p>
+          <p class="productTitle">ADIDAS ULTRABOOST X A KIND OF GUISE </p>
+          <p class="productPrice">Rp. 3.335.000</p>
+        </div>
+        <div class="productItem">
+          <img src="/assets/menshoes/MAN(RUNNING 8) - Packer.png" alt="Product 8" />
+          <p class="productSubtitle">Running MEN</p>
+          <p class="productTitle">ADIDAS ULTRA 4D 2.0 X PACKER</p>
+          <p class="productPrice">Rp. 5.200.000</p>
+        </div>
+
+
+      </div>
+
+      <!-- Panah Kanan -->
+      <div class="arrow arrowRight" onclick="moveSlide('section4', 1)">
+        &#10095;
+      </div>
+    </section>
+  </section>
+
+
+  <div class="aboutContent">
+    <div class="aboutInfo">
+      <p class="titleContent">
+        ELEVATE YOUR GAME WITH ADIDAS MEN'S SHOES
+      </p>
+      <p class="informationContent">
+        Take your shoe game to the next level with Adidas men's shoes, designed for the modern man who demands performance, style, and comfort. Our collection features three main themes: Adidas Originals, Sports, and Running Shoes, so you can choose the perfect pair to match your unique style. Whether you're hitting the gym, running errands, or just lounging around, our shoes will keep up with your active lifestyle.
+      </p>
+    </div>
+    <div class="aboutInfo">
+      <p class="titleContent">FIND YOUR PERFECT MATCH WITH ADIDAS MEN'S SHOES</p>
+      <p class="informationContent">
+        Discover the perfect shoes to match your unique style with Adidas men's shoes. Our Adidas Originals collection features classic and iconic designs, while our Sports collection is designed for performance and comfort. Our Running Shoes collection is perfect for those who love to run and stay active. With our shoes, you'll be able to take on any challenge and look great doing it. Shop our latest men's shoes at the official Adidas Indonesia online store and experience the comfort, style, and performance that Adidas is known for.
+      </p>
+    </div>
+    <div class="aboutInfo">
+      <p class="titleContent">ADIDAS MEN'S SHOES: WHERE PERFORMANCE MEETS STYLE</p>
+      <p class="informationContent">
+        Experience the ultimate performance and style with Adidas men's shoes. Our shoes are designed to provide superior support and cushioning, while also looking great. Whether you're into sports, fashion, or just want a comfortable pair of shoes, our collection has got you covered. Our Adidas Originals collection is perfect for those who want a classic and stylish look, while our Sports collection is designed for performance and comfort. Our Running Shoes collection is perfect for those who love to run and stay active.
+      </p>
+    </div>
+  </div>
+  <div class="descBottom">
+    <div class="row">
+      <div class="flag-container">
+        <img src="/assets/logo/flagLogo.png" alt="Flag" class="flag">
+        <p class="countryName">
+          ID | Privacy Politics | TERMS & CONDITIONS | COPYRIGHT 2024 ADIDAS
+          INDONESIA
+        </p>
+      </div>
+    </div>
+  </div>
+  
+  <script src="/js/menwomenkidspagescript.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="/js/script.js"></script>
+</body>
+
+</html>
