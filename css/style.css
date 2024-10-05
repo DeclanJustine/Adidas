@@ -16,15 +16,15 @@ body {
 }
 
 .logo-container {
-    position: fixed; 
+    position: fixed;
     top: 7px;
-    left: 20px; 
+    left: 20px;
     z-index: 2;
 }
 
 .adidasLogo {
-    width: 90px; 
-    height: auto; 
+    width: 90px;
+    height: auto;
 }
 
 nav {
@@ -69,13 +69,13 @@ nav a:hover {
     padding: 20px;
     border-radius: 10px;
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     align-items: center;
 }
 
 .headerText {
-    flex: 1; 
-    margin-right: 60px; 
+    flex: 1;
+    margin-right: 60px;
     margin-bottom: 30px;
 }
 
@@ -129,7 +129,8 @@ nav a:hover {
     margin-bottom: 30px;
 }
 
-.productCategory, .productPicts {
+.productCategory,
+.productPicts {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 30px;
@@ -151,7 +152,7 @@ nav a:hover {
 }
 
 .productWrapper {
-    position:relative;
+    position: relative;
     width: 300px;
     height: 300px;
 }
@@ -164,16 +165,16 @@ nav a:hover {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     object-fit: cover;
-    opacity: 1; 
-    transition: opacity 0.5s ease-in-out; 
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
 }
 
 .fade-out {
-    opacity: 0; 
+    opacity: 0;
 }
 
 .fade-in {
-    opacity: 1; 
+    opacity: 1;
 }
 
 .arrow {
@@ -217,7 +218,7 @@ nav a:hover {
 }
 
 .line.active {
-    background-color: #ff4500; 
+    background-color: #ff4500;
 }
 
 .lifestyleSection {
@@ -292,11 +293,11 @@ nav a:hover {
 
 .commentContent {
     width: 90%;
-    display: flex; 
+    display: flex;
     align-items: center;
-    text-align: left; 
+    text-align: left;
     margin: 20px;
-    gap: 20px; 
+    gap: 20px;
 }
 
 .commentPicts {
@@ -344,7 +345,7 @@ nav a:hover {
     line-height: 1.6;
     color: #555;
     max-width: 1000px;
-}   
+}
 
 .exploreButton .button {
     background-color: #333;
@@ -380,10 +381,12 @@ nav a:hover {
         margin-bottom: 20px;
     }
 
-    .collabSection, .lifestyleSection, .commentSection {
+    .collabSection,
+    .lifestyleSection,
+    .commentSection {
         padding: 10px;
     }
-    
+
     .productPicts .productWrapper {
         width: 250px;
         height: 250px;
@@ -428,11 +431,14 @@ nav a:hover {
         width: 250px;
     }
 
-    .collabSection, .lifestyleSection, .commentSection {
+    .collabSection,
+    .lifestyleSection,
+    .commentSection {
         padding: 10px;
     }
 
-    .productCategory, .productPicts {
+    .productCategory,
+    .productPicts {
         grid-template-columns: 1fr;
         gap: 20px;
     }
@@ -480,9 +486,9 @@ nav a:hover {
         background-color: rgb(161, 160, 160);
         width: 25%;
     }
-    
+
     #menu-icon {
-        display: block; 
+        display: block;
         cursor: pointer;
         position: fixed;
         font-size: 1.1rem;
@@ -500,7 +506,7 @@ nav a:hover {
         font-size: 1rem;
         margin: 1rem 0;
         padding-left: 10px;
-        border-bottom: 1px solid #000000; 
+        border-bottom: 1px solid #000000;
     }
 
     .adidasLogo {
@@ -527,7 +533,8 @@ nav a:hover {
         width: 200px;
     }
 
-    .productCategory, .productPicts {
+    .productCategory,
+    .productPicts {
         grid-template-columns: 1fr;
         gap: 10px;
     }
@@ -535,7 +542,7 @@ nav a:hover {
     .productWrapper {
         width: 150px;
         height: 150px;
-        margin-bottom: 20px;    
+        margin-bottom: 20px;
     }
 
     .lifestyleContent {
@@ -559,8 +566,8 @@ nav a:hover {
     }
 
     .exploreButton .button {
-        padding: 10px 20px; 
-        font-size: 14px; 
+        padding: 10px 20px;
+        font-size: 14px;
         border-radius: 30px;
     }
 }

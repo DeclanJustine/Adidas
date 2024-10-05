@@ -353,6 +353,7 @@ body {
 
 /* Untuk untuk handphone */
 @media (min-width: 576px) {
+
   /* Merubah ukuran css class tersebut, sesuai dengan ukuran layar  */
   .productItem {
     width: 50%;
@@ -365,6 +366,7 @@ body {
 
 /* Ukuran untuk tablet */
 @media (min-width: 768px) {
+
   /* Merubah ukuran css class tersebut, sesuai dengan ukuran layar  */
   .productItem {
     width: 50%;
@@ -381,6 +383,7 @@ body {
 
 /* Ukuran untuk laptop / desktop */
 @media (min-width: 992px) {
+
   /* Merubah ukuran css class tersebut, sesuai dengan ukuran layar  */
   .productItem {
     width: 25%;

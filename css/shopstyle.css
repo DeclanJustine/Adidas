@@ -1,69 +1,69 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    scroll-behavior: smooth;
-    width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  width: 100%;
 }
 
 body {
-    background-color: rgb(225, 225, 225);
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    overflow-x: hidden;
+  background-color: rgb(225, 225, 225);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
 }
 
 .headerSection {
-    background-color: rgb(225, 225, 225);
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    height: 20px;
-    border-bottom: 2px solid rgb(153, 153, 153);
+  background-color: rgb(225, 225, 225);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  height: 20px;
+  border-bottom: 2px solid rgb(153, 153, 153);
 }
 
 
 .logo-container {
-    top: -8px;
-    left: 20px; 
-    z-index: 2;
+  top: -8px;
+  left: 20px;
+  z-index: 2;
 }
 
-.logo-container img{
+.logo-container img {
   width: 90px;
   height: auto;
   margin-top: -13px;
 }
 
 .navbar {
-    display: none;
-    flex-direction: column;
-    position: fixed;
-    top: 40px;
-    right: 0;
-    background-color: rgb(161, 160, 160);
-    width: 10%;
+  display: none;
+  flex-direction: column;
+  position: fixed;
+  top: 40px;
+  right: 0;
+  background-color: rgb(161, 160, 160);
+  width: 10%;
 }
 
 #menu-icon {
-    display: flex; 
-    justify-content: end;
-    cursor: pointer;
-    margin-right: 1rem;
-    font-size: 1.1rem;
+  display: flex;
+  justify-content: end;
+  cursor: pointer;
+  margin-right: 1rem;
+  font-size: 1.1rem;
 }
 
 .navbar.active {
-    display: block;
+  display: block;
 }
 
 .navbar a {
@@ -72,154 +72,154 @@ body {
   font-weight: bold;
   margin: 1rem 0;
   padding-left: 10px;
-  border-bottom: 1px solid #000000; 
+  border-bottom: 1px solid #000000;
   color: black;
 }
 
 .adidasLogo {
-    position: absolute;
-    left: 20px;
-    width: 90px;
-    height: 60px;
+  position: absolute;
+  left: 20px;
+  width: 90px;
+  height: 60px;
 }
 
 .content {
-    margin-top: 20px;
-    width: 100%;
-    height: auto;
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
-    margin-top: 20px; 
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    gap: 60px;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 60px;
 }
 
 .card {
-    width: 400px;
-    height: 600px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    padding: 20px;
-    border-radius: 10px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  width: 400px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 20px;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .men {
-    background-image: url('/assets/logo/menLogo.png');
+  background-image: url('/assets/logo/menLogo.png');
 }
 
 .women {
-    background-image: url('/assets/logo/womenLogo.png');
+  background-image: url('/assets/logo/womenLogo.png');
 }
 
 .kids {
-    background-image: url('/assets/logo/kidsLogo.png');
+  background-image: url('/assets/logo/kidsLogo.png');
 }
 
 .card button {
-    background: linear-gradient(to right, #b0b0b0, #000000);
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 20px;
-    cursor: pointer;
-    font-size: 14px;
-    width: 40%;
-    margin-left: 100px;
+  background: linear-gradient(to right, #b0b0b0, #000000);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  width: 40%;
+  margin-left: 100px;
 }
 
 .card button:hover {
-    transform: scale(1.15);
-    transition: 0.2s;
+  transform: scale(1.15);
+  transition: 0.2s;
 }
 
 .productContent {
-    margin-top: 80px;
-    text-align: center;
-    width: 80%;
-    overflow: hidden;
-    position: relative;
+  margin-top: 80px;
+  text-align: center;
+  width: 80%;
+  overflow: hidden;
+  position: relative;
 }
 
 .titleContent {
-    text-align: center;
-    font-size: 60px;
-    font-weight: bold;
-    color: #333;
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  color: #333;
 }
 
 .productContainer {
-    margin-top: 40px;
-    display: flex;
-    justify-content: center;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
 }
 
 .productItem {
-    width: 20%;
-    background-color: rgb(225, 225, 225);
-    padding: 24px;
-    text-align: center;
+  width: 20%;
+  background-color: rgb(225, 225, 225);
+  padding: 24px;
+  text-align: center;
 }
 
 .productItem img {
-    width: 100%;
-    background-color: #e6e3db;
-    margin-bottom: 10px;
-    border-radius: 35px;
+  width: 100%;
+  background-color: #e6e3db;
+  margin-bottom: 10px;
+  border-radius: 35px;
 }
 
 .productTitle {
-    font-weight: 600;
-    margin-bottom: 5px;
-    text-align: start;
-    font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  text-align: start;
+  font-size: 16px;
 }
 
 .productPrice {
-    color: #333333;
-    text-align: start;
-    font-size: 13px;
+  color: #333333;
+  text-align: start;
+  font-size: 13px;
 }
 
 .descSection {
-    width: 100%;    
+  width: 100%;
 }
 
 .descContent {
-    background-color: #c4c4c4;
-    padding: 40px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  background-color: #c4c4c4;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .descContainer {
-    flex-basis: 48%;
-    padding: 0 0;
+  flex-basis: 48%;
+  padding: 0 0;
 }
 
 .descTitle {
-    font-weight: bold;
-    margin-bottom: 10px;
-    font-size: 18px;
-    color: #333;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #333;
 }
 
 .descDesc {
-    font-size: 12px;
-    color: #555;
-    line-height: 1.5;
-    text-align: justify;
+  font-size: 12px;
+  color: #555;
+  line-height: 1.5;
+  text-align: justify;
 }
 
 
@@ -233,8 +233,8 @@ body {
 }
 
 .row {
-  display: flex;  
-  justify-content: space-between; 
+  display: flex;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
 }
@@ -259,154 +259,153 @@ body {
 
 /* Responsif untuk layar di bawah 1200px */
 @media (max-width: 1200px) {
-    .content {
-      width: 100%;
-      height: auto;
-    }
-  
-    .container {
-      gap: 30px;
-    }
-  
-    .card {
-      width: 300px;
-      height: 500px;
-    }
-  
-    .productItem {
-      width: 22%;
-    }
-  
-    .titleContent {
-      font-size: 48px;
-    }
+  .content {
+    width: 100%;
+    height: auto;
   }
-  
-  /* Responsif untuk layar di bawah 991px */
-  @media (max-width: 991px) {
-    nav a {
-      font-size: 1.5rem;
-      margin-left: 30px;
-    }
-  
-    .container {
-      flex-direction: row;
-      gap: 20px;
-    }
-  
-    .card {
-      width: 250px;
-      height: 450px;
-    }
-  
-    .productItem {
-      width: 45%;
-    }
-  
-    .titleContent {
-      font-size: 40px;
-    }
-  
-    .descContent {
-      padding: 20px;
-    }
-  
-    .descContainer {
-      flex-basis: 100%;
-    }
+
+  .container {
+    gap: 30px;
   }
-  
-  /* Responsif untuk layar di bawah 768px */
-  @media (max-width: 768px) {
-    body {
-      width: 110%;
-    }
 
-    .adidasLogo {
-      margin-left: 20px;
-    }
+  .card {
+    width: 300px;
+    height: 500px;
+  }
 
-    #menu-icon {
-    display: flex; 
+  .productItem {
+    width: 22%;
+  }
+
+  .titleContent {
+    font-size: 48px;
+  }
+}
+
+/* Responsif untuk layar di bawah 991px */
+@media (max-width: 991px) {
+  nav a {
+    font-size: 1.5rem;
+    margin-left: 30px;
+  }
+
+  .container {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .card {
+    width: 250px;
+    height: 450px;
+  }
+
+  .productItem {
+    width: 45%;
+  }
+
+  .titleContent {
+    font-size: 40px;
+  }
+
+  .descContent {
+    padding: 20px;
+  }
+
+  .descContainer {
+    flex-basis: 100%;
+  }
+}
+
+/* Responsif untuk layar di bawah 768px */
+@media (max-width: 768px) {
+  body {
+    width: 110%;
+  }
+
+  .adidasLogo {
+    margin-left: 20px;
+  }
+
+  #menu-icon {
+    display: flex;
     justify-content: end;
     cursor: pointer;
     margin-right: 1rem;
     font-size: 1.1rem;
-    }
-  
-    .navbar {
-      display: none;
-      flex-direction: column;
-      width: 25%;
-      background-color: (161, 160, 160);
-      position: fixed;
-    }
-  
-    .navbar.active {
-      display: flex;
-    }
-  
-    nav a {
-      font-size: 1.2rem;
-      padding: 10px 0;
-      margin: 10px 0;
-    }
-  
-    .content {
-      width: 110%;
-      height: auto;
-    }
-  
-    .container {
-      flex-direction: column;
-      gap: 20px;
-    }
-  
-    .card {
-      width: 200px;
-      height: 400px;
-    }
+  }
 
-    .card button {
-      background: linear-gradient(to right, #b0b0b0, #000000);
-      color: white;
-      border: none;
-      padding: 10px 20px;
-      border-radius: 20px;
-      cursor: pointer;
-      font-size: 14px;
-      width: 60%;
-      margin-left: 45px;
+  .navbar {
+    display: none;
+    flex-direction: column;
+    width: 25%;
+    background-color: (161, 160, 160);
+    position: fixed;
   }
-  
-    .productContainer {
-      flex-wrap: wrap;
-    }
-  
-    .productItem {
-      width: 100%;
-    }
-  
-    .descContent {
-      padding: 10px;
-    }
-  
-    .descBottom {
-      height: 30px;
-      font-size: 10px;
-      width: 97%;
-    }
-  
-    .flagContainer {
-      width: auto;
-    }
-  
-    .flag {
-      width: 15px;
-    }
-  
-    .countryName {
-      font-size: 10px;
-    }
+
+  .navbar.active {
+    display: flex;
   }
-  
+
+  nav a {
+    font-size: 1.2rem;
+    padding: 10px 0;
+    margin: 10px 0;
+  }
+
+  .content {
+    width: 110%;
+    height: auto;
+  }
+
+  .container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .card {
+    width: 200px;
+    height: 400px;
+  }
+
+  .card button {
+    background: linear-gradient(to right, #b0b0b0, #000000);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 60%;
+    margin-left: 45px;
+  }
+
+  .productContainer {
+    flex-wrap: wrap;
+  }
+
+  .productItem {
+    width: 100%;
+  }
+
+  .descContent {
+    padding: 10px;
+  }
+
+  .descBottom {
+    height: 30px;
+    font-size: 10px;
+    width: 97%;
+  }
+
+  .flagContainer {
+    width: auto;
+  }
+
+  .flag {
+    width: 15px;
+  }
+
+  .countryName {
+    font-size: 10px;
+  }
+}
