@@ -160,7 +160,7 @@ body {
   border-radius: 30px;
   border: none;
   background: #fff;
-  width: 250px;
+  width: 150px;
   outline: none;
   transition: all 0.3s ease;
 }
@@ -381,6 +381,9 @@ body {
 
   .products {
     width: 80%;
+  }
+  #searchInput {
+    width: 250px;
   }
 }
 
