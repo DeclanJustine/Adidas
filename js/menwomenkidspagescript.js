@@ -1,7 +1,20 @@
 function moveSlide(sectionId, direction) {
   const container = document.querySelector(`#${sectionId} .productContainer`);
   const items = container.children;
-  const visibleItems = 4;
+  // const visibleItems = 4;
+  // Fungsi untuk responsive
+  // Tentukan jumlah item yang akan terlihat berdasarkan ukuran layar
+  let visibleItems;
+  if (window.innerWidth >= 1200) {
+    visibleItems = 4; // Untuk layar besar (desktop)
+  } else if (window.innerWidth >= 768) {
+    visibleItems = 2; // Untuk layar medium (tablet)
+  } else if (window.innerWidth >= 576) {
+    visibleItems = 2; // Untuk layar kecil (ponsel)
+  } else {
+    visibleItems = 1; // Untuk layar sangat kecil
+  }
+
   const totalSlides = Math.ceil(items.length / visibleItems);
 
   let currentSlide = parseInt(container.dataset.currentSlide || 0);

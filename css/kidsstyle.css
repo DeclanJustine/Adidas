@@ -178,7 +178,7 @@ body {
 .products {
   padding: 20px;
   text-align: center;
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
   overflow: hidden;
   position: relative;
@@ -187,6 +187,7 @@ body {
 .productContainer {
   margin-top: 2%;
   display: flex;
+  flex-wrap: wrap;
   transition: transform 0.5s ease;
 }
 
@@ -353,7 +354,6 @@ body {
 
 /* Untuk untuk handphone */
 @media (min-width: 576px) {
-
   /* Merubah ukuran css class tersebut, sesuai dengan ukuran layar  */
   .productItem {
     width: 50%;
@@ -366,7 +366,6 @@ body {
 
 /* Ukuran untuk tablet */
 @media (min-width: 768px) {
-
   /* Merubah ukuran css class tersebut, sesuai dengan ukuran layar  */
   .productItem {
     width: 50%;
@@ -379,11 +378,14 @@ body {
   .navbar {
     width: 30%;
   }
+
+  .products {
+    width: 80%;
+  }
 }
 
 /* Ukuran untuk laptop / desktop */
 @media (min-width: 992px) {
-
   /* Merubah ukuran css class tersebut, sesuai dengan ukuran layar  */
   .productItem {
     width: 25%;
