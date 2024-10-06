@@ -319,7 +319,7 @@ body {
 /* Responsif untuk layar di bawah 768px */
 @media (max-width: 768px) {
   body {
-    width: 110%;
+    width: 95%;
   }
 
   .adidasLogo {
