@@ -1,0 +1,177 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body {
+    background-color: rgb(225, 225, 225);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(225, 225, 225);
+    border-bottom: 2px solid rgb(153, 153, 153);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    z-index: 1000;
+  }
+  
+  nav a {
+    font-size: 1.5rem;
+    color: #2f2f2f;
+    margin: 0 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #ff4500;
+  }
+  
+  /* Logo Styling */
+  .logo-container {
+    position: fixed;
+    top: 10px;
+    left: 20px;
+  }
+  
+  .adidasLogo {
+    width: 100px;  /* Smaller size for logo */
+    height: auto;
+  }
+  
+  /* Product Page */
+  .product-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 900px;
+    margin: 100px auto 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-images {
+    max-width: 300px; /* Reduced size for the shoe image */
+    margin-bottom: 20px;
+  }
+  
+  .product-images img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: contain;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-details {
+    text-align: center;
+  }
+  
+  .product-details h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .product-details p#productPrice {
+    font-size: 22px;
+    font-weight: bold;
+    color: #e63946;
+    margin-bottom: 15px;
+  }
+  
+  .product-description {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .product-size {
+    margin-bottom: 20px;
+  }
+  
+  .product-size label {
+    font-weight: 600;
+  }
+  
+  select#size {
+    padding: 8px;
+    font-size: 14px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 12px 24px;
+    font-size: 16px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button#addToCart {
+    background-color: #000;
+    color: white;
+  }
+  
+  button#addToCart:hover {
+    background-color: #333;
+  }
+  
+  button#buyNow {
+    background-color: #e63946;
+    color: white;
+  }
+  
+  button#buyNow:hover {
+    background-color: #d62839;
+  }
+  
+  /* Responsiveness */
+  @media (max-width: 768px) {
+    .product-page {
+      padding: 15px;
+    }
+  
+    .product-images {
+      max-width: 250px; /* Even smaller image for mobile */
+    }
+  
+    .product-details h1 {
+      font-size: 20px;
+    }
+  
+    .product-details p#productPrice {
+      font-size: 20px;
+    }
+  
+    button {
+      padding: 10px 20px;
+      font-size: 14px;
+    }
+  
+    .adidasLogo {
+      width: 40px; /* Smaller logo for mobile screens */
+    }
+  }
+  
