@@ -1,34 +1,33 @@
-/* General Styling */
 body {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
-    background-color: rgb(225, 225, 225); /* Latar belakang sama seperti referensi */
+    background-color: rgb(225, 225, 225);
     color: #333;
 }
 
-/* Pembatasan antar section */
 section {
-    margin: 50px auto; /* Jarak antar section untuk memberikan pemisahan visual */
-    padding: 50px 20px; /* Padding agar konten tidak menempel di tepi */
-    max-width: 1200px; /* Membatasi lebar section agar lebih rapih */
-    background-color: rgb(225, 225, 225); /* Sama dengan latar belakang umum */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Efek bayangan untuk membedakan antar section */
-    border-radius: 10px; /* Sudut melengkung untuk tampilan lebih modern */
+    margin: 50px auto; 
+    padding: 50px 20px; 
+    max-width: 1200px; 
+    background-color: rgb(225, 225, 225); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); 
+    border-radius: 10px; 
 }
 
-/* Header Section */
 header {
-    background-color: rgb(225, 225, 225); /* Warna latar yang sama dengan referensi */
+    background-color: rgb(225, 225, 225);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 7px 20px;
+    border-bottom: 2px solid rgb(153, 153, 153);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
 }
 
 .logo {
-    width: 80px;
+    width: 90px;
+    height: auto;
 }
 
 .navbar {
@@ -38,18 +37,16 @@ header {
 .navbar a {
     margin-left: 20px;
     text-decoration: none;
-    color: #2f2f2f; /* Warna teks navbar dari referensi */
+    color: #2f2f2f;
     font-weight: bold;
     text-transform: uppercase;
     transition: color 0.3s ease;
 }
 
-.navbar a:hover,
-.navbar a.active {
-    color: #ff4500; /* Efek hover dengan warna oranye sesuai referensi */
+.navbar a:hover {
+    color: #ff4500;
 }
 
-/* About Us Section */
 .about-section {
     display: flex;
     justify-content: space-around;
@@ -69,7 +66,7 @@ header {
 .about-description {
     font-size: 18px;
     line-height: 1.8;
-    color: #555; /* Warna teks abu-abu sesuai referensi */
+    color: #555; 
 }
 
 .about-image img {
@@ -78,7 +75,6 @@ header {
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Values Section */
 .values-section {
     text-align: center;
 }
@@ -96,7 +92,7 @@ header {
 .value-box {
     width: 250px;
     padding: 20px;
-    background-color: white; /* Kotak putih dengan bayangan seperti referensi */
+    background-color: white;
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
@@ -121,7 +117,6 @@ header {
     line-height: 1.6;
 }
 
-/* History Section */
 .history-section {
     text-align: center;
 }
@@ -138,16 +133,122 @@ header {
     margin-bottom: 20px;
 }
 
-/* Footer Section */
 footer {
+    display: flex;
+    height: 40px;
     background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-    position: relative;
+    color: #edeff38b;
+    padding: 0 20px;
 }
+
+.flag-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .flag {
+    margin-right: 5px;
+    width: 20px;
+  }
 
 footer p {
     margin: 0;
-    font-size: 14px;
+    font-size: 12px;
+    font-weight: 400;
 }
+
+@media (max-width: 1200px) {
+    section {
+        padding: 30px 15px;
+    }
+
+    .about-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-image img {
+        width: 80%;
+        max-width: 400px;
+    }
+
+    .values-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .value-box {
+        margin-bottom: 20px;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 991px) {
+    header {
+        padding: 7px 10px;
+    }
+
+    .navbar a {
+        font-size: 1.5rem;
+        margin-left: 20px;
+    }
+
+    .about-title {
+        font-size: 30px;
+    }
+
+    .about-description {
+        font-size: 16px;
+    }
+
+    .values-title {
+        font-size: 28px;
+    }
+
+    .value-box {
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        display: none;
+    }
+
+    .about-section {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .about-image img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .value-box {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    footer {
+        flex-direction: column;
+        height: 20px;
+        padding: 10px 20px;
+        text-align: center;
+    }
+
+    footer p {
+        font-size: 12px;
+        margin-top: 3.8px;
+
+    }
+
+    .flag-container {
+        margin-bottom: 10px;
+    }
+
+    .flag {
+        width: 20px;
+    }
+}
+
