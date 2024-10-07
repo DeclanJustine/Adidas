@@ -1,0 +1,153 @@
+/* General Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(225, 225, 225); /* Latar belakang sama seperti referensi */
+    color: #333;
+}
+
+/* Pembatasan antar section */
+section {
+    margin: 50px auto; /* Jarak antar section untuk memberikan pemisahan visual */
+    padding: 50px 20px; /* Padding agar konten tidak menempel di tepi */
+    max-width: 1200px; /* Membatasi lebar section agar lebih rapih */
+    background-color: rgb(225, 225, 225); /* Sama dengan latar belakang umum */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Efek bayangan untuk membedakan antar section */
+    border-radius: 10px; /* Sudut melengkung untuk tampilan lebih modern */
+}
+
+/* Header Section */
+header {
+    background-color: rgb(225, 225, 225); /* Warna latar yang sama dengan referensi */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    width: 80px;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #2f2f2f; /* Warna teks navbar dari referensi */
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: #ff4500; /* Efek hover dengan warna oranye sesuai referensi */
+}
+
+/* About Us Section */
+.about-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-content {
+    max-width: 600px;
+}
+
+.about-title {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about-description {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #555; /* Warna teks abu-abu sesuai referensi */
+}
+
+.about-image img {
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Values Section */
+.values-section {
+    text-align: center;
+}
+
+.values-title {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.values-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.value-box {
+    width: 250px;
+    padding: 20px;
+    background-color: white; /* Kotak putih dengan bayangan seperti referensi */
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.value-box:hover {
+    transform: scale(1.05);
+}
+
+.value-box i {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.value-box h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.value-box p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* History Section */
+.history-section {
+    text-align: center;
+}
+
+.history-title {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.history-content p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
