@@ -8,28 +8,28 @@ menuIcon.onclick = () => {
 
 const images = [
   [
-    "/assets/Original1(HumanMade).png",
-    "/assets/Original2(Gucci).png",
-    "/assets/Original3(Beyonce).png",
-    "/assets/Original4(BadBunny).png",
+    "/assets/homepage/Original1(HumanMade).png",
+    "/assets/homepage/Original2(Gucci).png",
+    "/assets/homepage/Original3(Beyonce).png",
+    "/assets/homepage/Original4(BadBunny).png",
   ],
   [
-    "/assets/Sport1(TraeYoung).png",
-    "/assets/Sport2(DamianLillard).png",
-    "/assets/Sport3(Messi).png",
-    "/assets/Sport4(Yeezy).png",
+    "/assets/homepage/Sport1(TraeYoung).png",
+    "/assets/homepage/Sport2(DamianLillard).png",
+    "/assets/homepage/Sport3(Messi).png",
+    "/assets/homepage/Sport4(Yeezy).png",
   ],
   [
-    "/assets/Running1(Nasa).png",
-    "/assets/Running2(AllBirds).png",
-    "/assets/Running3(Parley).png",
-    "/assets/Running4(Wood).png",
+    "/assets/homepage/Running1(Nasa).png",
+    "/assets/homepage/Running2(AllBirds).png",
+    "/assets/homepage/Running3(Parley).png",
+    "/assets/homepage/Running4(Wood).png",
   ],
   [
-    "/assets/Kids1(Disney).png",
-    "/assets/Kids2(Lego).png",
-    "/assets/Kids3(HelloKitty).png",
-    "/assets/Kids4(Marvel).png",
+    "/assets/homepage/Kids1(Disney).png",
+    "/assets/homepage/Kids2(Lego).png",
+    "/assets/homepage/Kids3(HelloKitty).png",
+    "/assets/homepage/Kids4(Marvel).png",
   ],
 ];
 
