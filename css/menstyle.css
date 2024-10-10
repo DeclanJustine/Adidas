@@ -70,7 +70,6 @@ body {
   font-size: 1rem;
   font-weight: bold;
   margin: 1rem 0;
-  /* padding-left: 10px; */
   border-bottom: 1px solid #000000;
   color: black;
 }
@@ -201,6 +200,16 @@ body {
   margin-right: 0px;
 }
 
+.productItem a {
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s ease;
+}
+
+.productItem a:hover{
+  color: #ff4500;
+}
+
 .arrow {
   position: absolute;
   top: 45%;
@@ -223,6 +232,11 @@ body {
   width: 100%;
   background-color: #e6e3db;
   margin-bottom: 10px;
+  transition: transform 0.3s ease;
+}
+
+.productItem img:hover {
+  transform: scale(1.05);
 }
 
 .productTitle {
